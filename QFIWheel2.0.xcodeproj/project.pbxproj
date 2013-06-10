@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CA989D21725AA0F00F79F82 /* MadarBGiPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA989CC1725AA0F00F79F82 /* MadarBGiPad.png */; };
+		3CA989D31725AA0F00F79F82 /* MadarBGiPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA989CD1725AA0F00F79F82 /* MadarBGiPhone.png */; };
+		3CA989D41725AA0F00F79F82 /* MadarFGiPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA989CE1725AA0F00F79F82 /* MadarFGiPad.png */; };
+		3CA989D51725AA0F00F79F82 /* MadarFGiPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA989CF1725AA0F00F79F82 /* MadarFGiPhone.png */; };
+		3CA989D71725AA0F00F79F82 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA989D11725AA0F00F79F82 /* Default.png */; };
+		3CA989DC1725D4B200F79F82 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA989D81725D42900F79F82 /* Default-568h@2x.png */; };
+		3CA989E21725EBA100F79F82 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA989E11725EBA100F79F82 /* Icon.png */; };
+		3CA989E41725EBC500F79F82 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA989E31725EBC400F79F82 /* Icon@2x.png */; };
+		BFB0D94A14E876640093D96D /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB0D94814E876640093D96D /* Button.png */; };
+		BFB0D94B14E876640093D96D /* Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB0D94914E876640093D96D /* Button@2x.png */; };
+		BFB0D95514E8768C0093D96D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB0D94E14E8768C0093D96D /* AppDelegate.m */; };
+		BFB0D95614E8768C0093D96D /* OneFingerRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB0D95014E8768C0093D96D /* OneFingerRotationGestureRecognizer.m */; };
+		BFB0D95714E8768C0093D96D /* OneFingerRotationGestureViewController_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB0D95114E8768C0093D96D /* OneFingerRotationGestureViewController_ipad.xib */; };
+		BFB0D95814E8768C0093D96D /* OneFingerRotationGestureViewController_iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB0D95214E8768C0093D96D /* OneFingerRotationGestureViewController_iphone.xib */; };
+		BFB0D95914E8768C0093D96D /* OneFingerRotationGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB0D95414E8768C0093D96D /* OneFingerRotationGestureViewController.m */; };
+		BFB0D95D14E876A00093D96D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB0D95A14E876A00093D96D /* main.m */; };
+		BFC6866B14D58419000EAA89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC6866A14D58419000EAA89 /* UIKit.framework */; };
+		BFC6866D14D58419000EAA89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC6866C14D58419000EAA89 /* Foundation.framework */; };
+		BFC6866F14D58419000EAA89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC6866E14D58419000EAA89 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CA989C71725A5A800F79F82 /* QFIWheel2.0-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "QFIWheel2.0-Info.plist"; sourceTree = "<group>"; };
+		3CA989C81725A5A800F79F82 /* QFIWheel2.0-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QFIWheel2.0-Prefix.pch"; sourceTree = "<group>"; };
+		3CA989CC1725AA0F00F79F82 /* MadarBGiPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MadarBGiPad.png; sourceTree = "<group>"; };
+		3CA989CD1725AA0F00F79F82 /* MadarBGiPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MadarBGiPhone.png; sourceTree = "<group>"; };
+		3CA989CE1725AA0F00F79F82 /* MadarFGiPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MadarFGiPad.png; sourceTree = "<group>"; };
+		3CA989CF1725AA0F00F79F82 /* MadarFGiPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MadarFGiPhone.png; sourceTree = "<group>"; };
+		3CA989D11725AA0F00F79F82 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = OneFingerRotationGestureDemo/Default.png; sourceTree = "<group>"; };
+		3CA989D81725D42900F79F82 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../QFI-Wheel/Default-568h@2x.png"; sourceTree = "<group>"; };
+		3CA989E11725EBA100F79F82 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3CA989E31725EBC400F79F82 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		BFB0D94814E876640093D96D /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button.png; path = OneFingerRotationGestureDemo/Button.png; sourceTree = SOURCE_ROOT; };
+		BFB0D94914E876640093D96D /* Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Button@2x.png"; path = "OneFingerRotationGestureDemo/Button@2x.png"; sourceTree = SOURCE_ROOT; };
+		BFB0D94D14E8768C0093D96D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = OneFingerRotationGestureDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		BFB0D94E14E8768C0093D96D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = OneFingerRotationGestureDemo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		BFB0D94F14E8768C0093D96D /* OneFingerRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OneFingerRotationGestureRecognizer.h; path = OneFingerRotationGestureDemo/OneFingerRotationGestureRecognizer.h; sourceTree = SOURCE_ROOT; };
+		BFB0D95014E8768C0093D96D /* OneFingerRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OneFingerRotationGestureRecognizer.m; path = OneFingerRotationGestureDemo/OneFingerRotationGestureRecognizer.m; sourceTree = SOURCE_ROOT; };
+		BFB0D95114E8768C0093D96D /* OneFingerRotationGestureViewController_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OneFingerRotationGestureViewController_ipad.xib; path = OneFingerRotationGestureDemo/OneFingerRotationGestureViewController_ipad.xib; sourceTree = SOURCE_ROOT; };
+		BFB0D95214E8768C0093D96D /* OneFingerRotationGestureViewController_iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OneFingerRotationGestureViewController_iphone.xib; path = OneFingerRotationGestureDemo/OneFingerRotationGestureViewController_iphone.xib; sourceTree = SOURCE_ROOT; };
+		BFB0D95314E8768C0093D96D /* OneFingerRotationGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OneFingerRotationGestureViewController.h; path = OneFingerRotationGestureDemo/OneFingerRotationGestureViewController.h; sourceTree = SOURCE_ROOT; };
+		BFB0D95414E8768C0093D96D /* OneFingerRotationGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OneFingerRotationGestureViewController.m; path = OneFingerRotationGestureDemo/OneFingerRotationGestureViewController.m; sourceTree = SOURCE_ROOT; };
+		BFB0D95A14E876A00093D96D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OneFingerRotationGestureDemo/main.m; sourceTree = SOURCE_ROOT; };
+		BFB0D96214E876C50093D96D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = OneFingerRotationGestureDemo/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		BFC6866614D58419000EAA89 /* QFIWheel2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QFIWheel2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC6866A14D58419000EAA89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFC6866C14D58419000EAA89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFC6866E14D58419000EAA89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFC6866314D58419000EAA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC6866B14D58419000EAA89 /* UIKit.framework in Frameworks */,
+				BFC6866D14D58419000EAA89 /* Foundation.framework in Frameworks */,
+				BFC6866F14D58419000EAA89 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFC6865B14D58419000EAA89 = {
+			isa = PBXGroup;
+			children = (
+				3CA989E31725EBC400F79F82 /* Icon@2x.png */,
+				3CA989E11725EBA100F79F82 /* Icon.png */,
+				3CA989D11725AA0F00F79F82 /* Default.png */,
+				3CA989D81725D42900F79F82 /* Default-568h@2x.png */,
+				BFC6867014D58419000EAA89 /* OneFingerRotationGestureDemo */,
+				BFC6866914D58419000EAA89 /* Frameworks */,
+				BFC6866714D58419000EAA89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFC6866714D58419000EAA89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFC6866614D58419000EAA89 /* QFIWheel2.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC6866914D58419000EAA89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFC6866A14D58419000EAA89 /* UIKit.framework */,
+				BFC6866C14D58419000EAA89 /* Foundation.framework */,
+				BFC6866E14D58419000EAA89 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFC6867014D58419000EAA89 /* OneFingerRotationGestureDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3CA989CC1725AA0F00F79F82 /* MadarBGiPad.png */,
+				3CA989CD1725AA0F00F79F82 /* MadarBGiPhone.png */,
+				3CA989CE1725AA0F00F79F82 /* MadarFGiPad.png */,
+				3CA989CF1725AA0F00F79F82 /* MadarFGiPhone.png */,
+				BFB0D94814E876640093D96D /* Button.png */,
+				BFB0D94914E876640093D96D /* Button@2x.png */,
+				BFB0D94D14E8768C0093D96D /* AppDelegate.h */,
+				BFB0D94E14E8768C0093D96D /* AppDelegate.m */,
+				BFB0D94F14E8768C0093D96D /* OneFingerRotationGestureRecognizer.h */,
+				BFB0D95014E8768C0093D96D /* OneFingerRotationGestureRecognizer.m */,
+				BFB0D95114E8768C0093D96D /* OneFingerRotationGestureViewController_ipad.xib */,
+				BFB0D95214E8768C0093D96D /* OneFingerRotationGestureViewController_iphone.xib */,
+				BFB0D95314E8768C0093D96D /* OneFingerRotationGestureViewController.h */,
+				BFB0D95414E8768C0093D96D /* OneFingerRotationGestureViewController.m */,
+				BFC6867114D58419000EAA89 /* Supporting Files */,
+			);
+			path = OneFingerRotationGestureDemo;
+			sourceTree = "<group>";
+		};
+		BFC6867114D58419000EAA89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CA989C71725A5A800F79F82 /* QFIWheel2.0-Info.plist */,
+				3CA989C81725A5A800F79F82 /* QFIWheel2.0-Prefix.pch */,
+				BFB0D96114E876C50093D96D /* InfoPlist.strings */,
+				BFB0D95A14E876A00093D96D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFC6866514D58419000EAA89 /* QFIWheel2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC6867E14D58419000EAA89 /* Build configuration list for PBXNativeTarget "QFIWheel2.0" */;
+			buildPhases = (
+				BFC6866214D58419000EAA89 /* Sources */,
+				BFC6866314D58419000EAA89 /* Frameworks */,
+				BFC6866414D58419000EAA89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QFIWheel2.0;
+			productName = OneFingerRotationGestureDemo;
+			productReference = BFC6866614D58419000EAA89 /* QFIWheel2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFC6865D14D58419000EAA89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = BFC6866014D58419000EAA89 /* Build configuration list for PBXProject "QFIWheel2.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFC6865B14D58419000EAA89;
+			productRefGroup = BFC6866714D58419000EAA89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFC6866514D58419000EAA89 /* QFIWheel2.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFC6866414D58419000EAA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA989DC1725D4B200F79F82 /* Default-568h@2x.png in Resources */,
+				BFB0D94A14E876640093D96D /* Button.png in Resources */,
+				BFB0D94B14E876640093D96D /* Button@2x.png in Resources */,
+				BFB0D95714E8768C0093D96D /* OneFingerRotationGestureViewController_ipad.xib in Resources */,
+				BFB0D95814E8768C0093D96D /* OneFingerRotationGestureViewController_iphone.xib in Resources */,
+				3CA989D21725AA0F00F79F82 /* MadarBGiPad.png in Resources */,
+				3CA989D31725AA0F00F79F82 /* MadarBGiPhone.png in Resources */,
+				3CA989D41725AA0F00F79F82 /* MadarFGiPad.png in Resources */,
+				3CA989D51725AA0F00F79F82 /* MadarFGiPhone.png in Resources */,
+				3CA989D71725AA0F00F79F82 /* Default.png in Resources */,
+				3CA989E21725EBA100F79F82 /* Icon.png in Resources */,
+				3CA989E41725EBC500F79F82 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFC6866214D58419000EAA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB0D95514E8768C0093D96D /* AppDelegate.m in Sources */,
+				BFB0D95614E8768C0093D96D /* OneFingerRotationGestureRecognizer.m in Sources */,
+				BFB0D95914E8768C0093D96D /* OneFingerRotationGestureViewController.m in Sources */,
+				BFB0D95D14E876A00093D96D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFB0D96114E876C50093D96D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB0D96214E876C50093D96D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFC6867C14D58419000EAA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFC6867D14D58419000EAA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFC6867F14D58419000EAA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneFingerRotationGestureDemo/QFIWheel2.0-Prefix.pch";
+				INFOPLIST_FILE = "/Users/hindalmerekhi/Desktop/QFIWheel0.2/OneFingerRotationGestureDemo/QFIWheel2.0-Info.plist";
+				PRODUCT_NAME = QFIWheel2.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFC6868014D58419000EAA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneFingerRotationGestureDemo/QFIWheel2.0-Prefix.pch";
+				INFOPLIST_FILE = "/Users/hindalmerekhi/Desktop/QFIWheel0.2/OneFingerRotationGestureDemo/QFIWheel2.0-Info.plist";
+				PRODUCT_NAME = QFIWheel2.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFC6866014D58419000EAA89 /* Build configuration list for PBXProject "QFIWheel2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC6867C14D58419000EAA89 /* Debug */,
+				BFC6867D14D58419000EAA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC6867E14D58419000EAA89 /* Build configuration list for PBXNativeTarget "QFIWheel2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC6867F14D58419000EAA89 /* Debug */,
+				BFC6868014D58419000EAA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFC6865D14D58419000EAA89 /* Project object */;
+}
