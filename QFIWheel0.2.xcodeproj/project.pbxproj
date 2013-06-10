@@ -12,9 +12,9 @@
 		3CA989D41725AA0F00F79F82 /* MadarFGiPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA989CE1725AA0F00F79F82 /* MadarFGiPad.png */; };
 		3CA989D51725AA0F00F79F82 /* MadarFGiPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA989CF1725AA0F00F79F82 /* MadarFGiPhone.png */; };
 		3CA989D71725AA0F00F79F82 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA989D11725AA0F00F79F82 /* Default.png */; };
-		3CA989DC1725D4B200F79F82 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA989D81725D42900F79F82 /* Default-568h@2x.png */; };
 		3CE997061766397300932AC6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CE997041766397300932AC6 /* Icon.png */; };
 		3CE997071766397300932AC6 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CE997051766397300932AC6 /* Icon@2x.png */; };
+		3CE9970B17663D2900932AC6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CE9970A17663D2900932AC6 /* Default-568h@2x.png */; };
 		BFB0D94A14E876640093D96D /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB0D94814E876640093D96D /* Button.png */; };
 		BFB0D94B14E876640093D96D /* Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB0D94914E876640093D96D /* Button@2x.png */; };
 		BFB0D95514E8768C0093D96D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB0D94E14E8768C0093D96D /* AppDelegate.m */; };
@@ -29,16 +29,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3CA989C71725A5A800F79F82 /* QFIWheel2.0-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "QFIWheel2.0-Info.plist"; sourceTree = "<group>"; };
-		3CA989C81725A5A800F79F82 /* QFIWheel2.0-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QFIWheel2.0-Prefix.pch"; sourceTree = "<group>"; };
+		3CA989C71725A5A800F79F82 /* QFIWheel0.2-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "QFIWheel0.2-Info.plist"; sourceTree = "<group>"; };
+		3CA989C81725A5A800F79F82 /* QFIWheel0.2-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QFIWheel0.2-Prefix.pch"; sourceTree = "<group>"; };
 		3CA989CC1725AA0F00F79F82 /* MadarBGiPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MadarBGiPad.png; sourceTree = "<group>"; };
 		3CA989CD1725AA0F00F79F82 /* MadarBGiPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MadarBGiPhone.png; sourceTree = "<group>"; };
 		3CA989CE1725AA0F00F79F82 /* MadarFGiPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MadarFGiPad.png; sourceTree = "<group>"; };
 		3CA989CF1725AA0F00F79F82 /* MadarFGiPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MadarFGiPhone.png; sourceTree = "<group>"; };
 		3CA989D11725AA0F00F79F82 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = OneFingerRotationGestureDemo/Default.png; sourceTree = "<group>"; };
-		3CA989D81725D42900F79F82 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../QFI-Wheel/Default-568h@2x.png"; sourceTree = "<group>"; };
 		3CE997041766397300932AC6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = OneFingerRotationGestureDemo/Icon.png; sourceTree = "<group>"; };
 		3CE997051766397300932AC6 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "OneFingerRotationGestureDemo/Icon@2x.png"; sourceTree = "<group>"; };
+		3CE9970A17663D2900932AC6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "OneFingerRotationGestureDemo/Default-568h@2x.png"; sourceTree = "<group>"; };
 		BFB0D94814E876640093D96D /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button.png; path = OneFingerRotationGestureDemo/Button.png; sourceTree = SOURCE_ROOT; };
 		BFB0D94914E876640093D96D /* Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Button@2x.png"; path = "OneFingerRotationGestureDemo/Button@2x.png"; sourceTree = SOURCE_ROOT; };
 		BFB0D94D14E8768C0093D96D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = OneFingerRotationGestureDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -51,7 +51,7 @@
 		BFB0D95414E8768C0093D96D /* OneFingerRotationGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OneFingerRotationGestureViewController.m; path = OneFingerRotationGestureDemo/OneFingerRotationGestureViewController.m; sourceTree = SOURCE_ROOT; };
 		BFB0D95A14E876A00093D96D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OneFingerRotationGestureDemo/main.m; sourceTree = SOURCE_ROOT; };
 		BFB0D96214E876C50093D96D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = OneFingerRotationGestureDemo/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
-		BFC6866614D58419000EAA89 /* QFIWheel2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QFIWheel2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC6866614D58419000EAA89 /* QFIWheel0.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QFIWheel0.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC6866A14D58419000EAA89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BFC6866C14D58419000EAA89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BFC6866E14D58419000EAA89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,10 +74,10 @@
 		BFC6865B14D58419000EAA89 = {
 			isa = PBXGroup;
 			children = (
+				3CE9970A17663D2900932AC6 /* Default-568h@2x.png */,
 				3CE997041766397300932AC6 /* Icon.png */,
 				3CE997051766397300932AC6 /* Icon@2x.png */,
 				3CA989D11725AA0F00F79F82 /* Default.png */,
-				3CA989D81725D42900F79F82 /* Default-568h@2x.png */,
 				BFC6867014D58419000EAA89 /* OneFingerRotationGestureDemo */,
 				BFC6866914D58419000EAA89 /* Frameworks */,
 				BFC6866714D58419000EAA89 /* Products */,
@@ -87,7 +87,7 @@
 		BFC6866714D58419000EAA89 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFC6866614D58419000EAA89 /* QFIWheel2.0.app */,
+				BFC6866614D58419000EAA89 /* QFIWheel0.2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,8 +127,8 @@
 		BFC6867114D58419000EAA89 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3CA989C71725A5A800F79F82 /* QFIWheel2.0-Info.plist */,
-				3CA989C81725A5A800F79F82 /* QFIWheel2.0-Prefix.pch */,
+				3CA989C71725A5A800F79F82 /* QFIWheel0.2-Info.plist */,
+				3CA989C81725A5A800F79F82 /* QFIWheel0.2-Prefix.pch */,
 				BFB0D96114E876C50093D96D /* InfoPlist.strings */,
 				BFB0D95A14E876A00093D96D /* main.m */,
 			);
@@ -138,9 +138,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BFC6866514D58419000EAA89 /* QFIWheel2.0 */ = {
+		BFC6866514D58419000EAA89 /* QFIWheel0.2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFC6867E14D58419000EAA89 /* Build configuration list for PBXNativeTarget "QFIWheel2.0" */;
+			buildConfigurationList = BFC6867E14D58419000EAA89 /* Build configuration list for PBXNativeTarget "QFIWheel0.2" */;
 			buildPhases = (
 				BFC6866214D58419000EAA89 /* Sources */,
 				BFC6866314D58419000EAA89 /* Frameworks */,
@@ -150,9 +150,9 @@
 			);
 			dependencies = (
 			);
-			name = QFIWheel2.0;
+			name = QFIWheel0.2;
 			productName = OneFingerRotationGestureDemo;
-			productReference = BFC6866614D58419000EAA89 /* QFIWheel2.0.app */;
+			productReference = BFC6866614D58419000EAA89 /* QFIWheel0.2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -163,7 +163,7 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 			};
-			buildConfigurationList = BFC6866014D58419000EAA89 /* Build configuration list for PBXProject "QFIWheel2.0" */;
+			buildConfigurationList = BFC6866014D58419000EAA89 /* Build configuration list for PBXProject "QFIWheel0.2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -175,7 +175,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFC6866514D58419000EAA89 /* QFIWheel2.0 */,
+				BFC6866514D58419000EAA89 /* QFIWheel0.2 */,
 			);
 		};
 /* End PBXProject section */
@@ -185,9 +185,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CE9970B17663D2900932AC6 /* Default-568h@2x.png in Resources */,
 				3CE997061766397300932AC6 /* Icon.png in Resources */,
 				3CE997071766397300932AC6 /* Icon@2x.png in Resources */,
-				3CA989DC1725D4B200F79F82 /* Default-568h@2x.png in Resources */,
 				BFB0D94A14E876640093D96D /* Button.png in Resources */,
 				BFB0D94B14E876640093D96D /* Button@2x.png in Resources */,
 				BFB0D95714E8768C0093D96D /* OneFingerRotationGestureViewController_ipad.xib in Resources */,
@@ -288,9 +288,9 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OneFingerRotationGestureDemo/QFIWheel2.0-Prefix.pch";
-				INFOPLIST_FILE = "/Users/hindalmerekhi/Desktop/QFIWheel0.2/OneFingerRotationGestureDemo/QFIWheel2.0-Info.plist";
-				PRODUCT_NAME = QFIWheel2.0;
+				GCC_PREFIX_HEADER = "OneFingerRotationGestureDemo/QFIWheel0.2-Prefix.pch";
+				INFOPLIST_FILE = "OneFingerRotationGestureDemo/QFIWheel0.2-Info.plist";
+				PRODUCT_NAME = QFIWheel0.2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -300,9 +300,9 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OneFingerRotationGestureDemo/QFIWheel2.0-Prefix.pch";
-				INFOPLIST_FILE = "/Users/hindalmerekhi/Desktop/QFIWheel0.2/OneFingerRotationGestureDemo/QFIWheel2.0-Info.plist";
-				PRODUCT_NAME = QFIWheel2.0;
+				GCC_PREFIX_HEADER = "OneFingerRotationGestureDemo/QFIWheel0.2-Prefix.pch";
+				INFOPLIST_FILE = "OneFingerRotationGestureDemo/QFIWheel0.2-Info.plist";
+				PRODUCT_NAME = QFIWheel0.2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -310,7 +310,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BFC6866014D58419000EAA89 /* Build configuration list for PBXProject "QFIWheel2.0" */ = {
+		BFC6866014D58419000EAA89 /* Build configuration list for PBXProject "QFIWheel0.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFC6867C14D58419000EAA89 /* Debug */,
@@ -319,7 +319,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFC6867E14D58419000EAA89 /* Build configuration list for PBXNativeTarget "QFIWheel2.0" */ = {
+		BFC6867E14D58419000EAA89 /* Build configuration list for PBXNativeTarget "QFIWheel0.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFC6867F14D58419000EAA89 /* Debug */,

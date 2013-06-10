@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BFC6866514D58419000EAA89"
-               BuildableName = "QFIWheel2.0.app"
-               BlueprintName = "QFIWheel2.0"
-               ReferencedContainer = "container:QFIWheel2.0.xcodeproj">
+               BuildableName = "QFIWheel0.2.app"
+               BlueprintName = "QFIWheel0.2"
+               ReferencedContainer = "container:QFIWheel0.2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BFC6866514D58419000EAA89"
-            BuildableName = "QFIWheel2.0.app"
-            BlueprintName = "QFIWheel2.0"
-            ReferencedContainer = "container:QFIWheel2.0.xcodeproj">
+            BuildableName = "QFIWheel0.2.app"
+            BlueprintName = "QFIWheel0.2"
+            ReferencedContainer = "container:QFIWheel0.2.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BFC6866514D58419000EAA89"
-            BuildableName = "QFIWheel2.0.app"
-            BlueprintName = "QFIWheel2.0"
-            ReferencedContainer = "container:QFIWheel2.0.xcodeproj">
+            BuildableName = "QFIWheel0.2.app"
+            BlueprintName = "QFIWheel0.2"
+            ReferencedContainer = "container:QFIWheel0.2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BFC6866514D58419000EAA89"
-            BuildableName = "QFIWheel2.0.app"
-            BlueprintName = "QFIWheel2.0"
-            ReferencedContainer = "container:QFIWheel2.0.xcodeproj">
+            BuildableName = "QFIWheel0.2.app"
+            BlueprintName = "QFIWheel0.2"
+            ReferencedContainer = "container:QFIWheel0.2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
