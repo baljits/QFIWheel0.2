@@ -13,8 +13,8 @@
 		3CA989D51725AA0F00F79F82 /* MadarFGiPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA989CF1725AA0F00F79F82 /* MadarFGiPhone.png */; };
 		3CA989D71725AA0F00F79F82 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA989D11725AA0F00F79F82 /* Default.png */; };
 		3CA989DC1725D4B200F79F82 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA989D81725D42900F79F82 /* Default-568h@2x.png */; };
-		3CA989E21725EBA100F79F82 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA989E11725EBA100F79F82 /* Icon.png */; };
-		3CA989E41725EBC500F79F82 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA989E31725EBC400F79F82 /* Icon@2x.png */; };
+		3CE997061766397300932AC6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CE997041766397300932AC6 /* Icon.png */; };
+		3CE997071766397300932AC6 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CE997051766397300932AC6 /* Icon@2x.png */; };
 		BFB0D94A14E876640093D96D /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB0D94814E876640093D96D /* Button.png */; };
 		BFB0D94B14E876640093D96D /* Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB0D94914E876640093D96D /* Button@2x.png */; };
 		BFB0D95514E8768C0093D96D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB0D94E14E8768C0093D96D /* AppDelegate.m */; };
@@ -37,8 +37,8 @@
 		3CA989CF1725AA0F00F79F82 /* MadarFGiPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MadarFGiPhone.png; sourceTree = "<group>"; };
 		3CA989D11725AA0F00F79F82 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = OneFingerRotationGestureDemo/Default.png; sourceTree = "<group>"; };
 		3CA989D81725D42900F79F82 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../QFI-Wheel/Default-568h@2x.png"; sourceTree = "<group>"; };
-		3CA989E11725EBA100F79F82 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		3CA989E31725EBC400F79F82 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		3CE997041766397300932AC6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = OneFingerRotationGestureDemo/Icon.png; sourceTree = "<group>"; };
+		3CE997051766397300932AC6 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "OneFingerRotationGestureDemo/Icon@2x.png"; sourceTree = "<group>"; };
 		BFB0D94814E876640093D96D /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button.png; path = OneFingerRotationGestureDemo/Button.png; sourceTree = SOURCE_ROOT; };
 		BFB0D94914E876640093D96D /* Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Button@2x.png"; path = "OneFingerRotationGestureDemo/Button@2x.png"; sourceTree = SOURCE_ROOT; };
 		BFB0D94D14E8768C0093D96D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = OneFingerRotationGestureDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -74,8 +74,8 @@
 		BFC6865B14D58419000EAA89 = {
 			isa = PBXGroup;
 			children = (
-				3CA989E31725EBC400F79F82 /* Icon@2x.png */,
-				3CA989E11725EBA100F79F82 /* Icon.png */,
+				3CE997041766397300932AC6 /* Icon.png */,
+				3CE997051766397300932AC6 /* Icon@2x.png */,
 				3CA989D11725AA0F00F79F82 /* Default.png */,
 				3CA989D81725D42900F79F82 /* Default-568h@2x.png */,
 				BFC6867014D58419000EAA89 /* OneFingerRotationGestureDemo */,
@@ -185,6 +185,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CE997061766397300932AC6 /* Icon.png in Resources */,
+				3CE997071766397300932AC6 /* Icon@2x.png in Resources */,
 				3CA989DC1725D4B200F79F82 /* Default-568h@2x.png in Resources */,
 				BFB0D94A14E876640093D96D /* Button.png in Resources */,
 				BFB0D94B14E876640093D96D /* Button@2x.png in Resources */,
@@ -195,8 +197,6 @@
 				3CA989D41725AA0F00F79F82 /* MadarFGiPad.png in Resources */,
 				3CA989D51725AA0F00F79F82 /* MadarFGiPhone.png in Resources */,
 				3CA989D71725AA0F00F79F82 /* Default.png in Resources */,
-				3CA989E21725EBA100F79F82 /* Icon.png in Resources */,
-				3CA989E41725EBC500F79F82 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
